@@ -26,5 +26,4 @@ public class Beast extends Animal implements Employable {
     public String toString() {
         return String.format("id: %d\nName: %s\nРожден: %s\nГрузоподъемность: %s\n", getId(), getName(), getBirthdate(), this.loadCapacity);
     }
-
 }

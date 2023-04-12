@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class Menu {
     static Scanner scanner = new Scanner(System.in);
 
-    // Метод, показывающий главное меню программы
     public static void showMainMenu() {
         System.out.println("Введите цифру необходимого действия: \n" +
                 "1. Показать весь питомник\n" +
@@ -21,7 +20,6 @@ public class Menu {
                 "4. Обучить животное новым командам\n" +
                 "5. Завести новое животное");
     }
-
 
     public static void printOnlyThisClass(Farm<Animal> animalFarm) {
         System.out.println("Выберите вид животных: \n" +
@@ -44,9 +42,9 @@ public class Menu {
                 "1. Домашние\n" +
                 "2. Вьючные");
         int userSelectedClass = scanner.nextInt();
-
+        int userSelected;
         switch (userSelectedClass) {
-            int userSelected;
+
             case 1:
                 System.out.println("Выберите вид животных: \n" +
                         "1. Кошки\n" +
