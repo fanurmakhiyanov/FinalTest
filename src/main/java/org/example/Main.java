@@ -12,10 +12,10 @@ public class Main {
 
         Farm<Animal> animalFarm = new Farm<>();
 
-        animalFarm.adopt(new Cat(1009, "Мася", "2009-12-12", true));
-        animalFarm.adopt(new Donkey(1019, "Джек", "2019-01-12", 12));
-        animalFarm.adopt(new Camel(1091, "Горбун", "2016-07-15", 15));
-        animalFarm.adopt(new Dog(1209, "Байкал", "2018-07-15", false));
+        animalFarm.adopt(new Cat(1001, "Лися", "2016-10-13", true));
+        animalFarm.adopt(new Donkey(1002, "Алдар", "2014-05-12", 12));
+        animalFarm.adopt(new Camel(1003, "Агата", "2014-05-12", 15));
+        animalFarm.adopt(new Dog(1004, "Шарик", "2021-04-07", false));
 
         try {
             while (true) {
